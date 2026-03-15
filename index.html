@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Hansel Trail</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e1e4e8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .app-name {
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin: 25px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            margin: 20px 0 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .key-point {
+            background-color: #e8f4fd;
+            border-left: 4px solid var(--accent-color);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+            font-weight: 500;
+        }
+
+        ul {
+            margin: 10px 0 10px 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: var(--primary-color);
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: #f1f3f5;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        /* List "What We Do NOT Do" */
+        .negative-list li {
+            list-style: none;
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+        
+        .negative-list li::before {
+            content: "❌ ";
+            margin-right: 8px;
+        }
+
+        /* Permissions List */
+        .permissions-list li {
+            margin-bottom: 12px;
+            padding-left: 5px;
+        }
+
+        .permissions-list strong {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        /* Contact Section */
+        .contact-box {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .contact-box a {
+            color: var(--accent-color);
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            h2 {
+                font-size: 1.25rem;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p class="app-name">Hansel Trail</p>
+            <p class="last-updated">Last updated: March 15, 2026</p>
+        </header>
+
+        <section>
+            <h2>Overview</h2>
+            <p>Hansel Trail is a simple location sharing application that allows users to send their GPS coordinates via SMS or share them through other apps. This Privacy Policy explains what information the app accesses, how it is used, and your rights regarding your data.</p>
+            
+            <div class="key-point">
+                <strong>Key Point:</strong> This app does not collect, store, or transmit any data to the developer. All information is processed locally on your device and sent directly to your chosen recipient.
+            </div>
+        </section>
+
+        <section>
+            <h2>Information the App Accesses</h2>
+            
+            <h3>1. Location Data</h3>
+            <ul>
+                <li><strong>Precise GPS coordinates</strong> (latitude and longitude)</li>
+                <li><strong>Location accuracy</strong> (in meters)</li>
+            </ul>
+            <p>The app accesses your location <strong>only when you explicitly press</strong> "Send by SMS" or "Send by internet" buttons. We do not track your location in the background.</p>
+
+            <h3>2. Phone Number</h3>
+            <ul>
+                <li>The phone number you enter is saved <strong>locally on your device</strong> to pre-fill the SMS field next time</li>
+                <li>This information never leaves your device</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>How Your Information Is Used</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Purpose</th>
+                        <th>What Happens to It</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GPS coordinates</td>
+                        <td>Generate a shareable Google Maps link</td>
+                        <td>Passed directly to your chosen sharing method (SMS or third-party app); not stored by the app</td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td>Pre-fill SMS recipient field</td>
+                        <td>Stored locally in your device's app settings only</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Data Sharing</h2>
+            
+            <h3>SMS Sending</h3>
+            <p>When you use "Send by SMS", your location is formatted into a text message and handed off to your device's default SMS app. The message is then sent via your mobile carrier to the phone number you specify.</p>
+
+            <h3>Third-Party Sharing</h3>
+            <p>When you use "Share", your location is passed to whichever app you select (WhatsApp, Telegram, Email, etc.).</p>
+            <p><strong>Important:</strong> We do not control how these third-party services handle your data. Please review their privacy policies before sharing.</p>
+        </section>
+
+        <section>
+            <h2>What We Do NOT Do</h2>
+            <ul class="negative-list">
+                <li>We do <strong>not</strong> operate any servers</li>
+                <li>We do <strong>not</strong> store your data in the cloud</li>
+                <li>We do <strong>not</strong> share data with the developer or third parties for analytics, advertising, or any other purpose</li>
+                <li>We do <strong>not</strong> track your location in the background</li>
+                <li>We do <strong>not</strong> sell your information</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Permissions</h2>
+            <p>The app requires these permissions solely for its core functionality:</p>
+            <ul class="permissions-list">
+                <li>
+                    <strong>Location (Fine)</strong>
+                    To read your GPS coordinates when you request to share them
+                </li>
+                <li>
+                    <strong>SMS</strong>
+                    To open your SMS app with a pre-filled message
+                </li>
+            </ul>
+            <p>The app will only access your location when you actively press a button to share it.</p>
+        </section>
+
+        <section>
+            <h2>Data Security</h2>
+            <p>Since the app does not store or transmit data to external servers, your information remains on your device until you choose to share it through your preferred method (SMS, messaging app, etc.).</p>
+        </section>
+
+        <section>
+            <h2>Children's Privacy</h2>
+            <p>This app is not intended for use by children under 13.</p>
+        </section>
+
+        <section>
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy. Any changes will be posted here with an updated date.</p>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <p>If you have any questions about this Privacy Policy:</p>
+            <div class="contact-box">
+                <strong>Email:</strong> <a href="mailto:initum.x@gmail.com">initum.x@gmail.com</a>
+            </div>
+        </section>
+
+        <footer>
+            <p><strong>By using Hansel Trail, you agree to the terms of this Privacy Policy.</strong></p>
+        </footer>
+    </div>
+
+</body>
+</html>
